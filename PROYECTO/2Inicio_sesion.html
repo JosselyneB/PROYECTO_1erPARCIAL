@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://kit.fontawesome.com/70de7d2f63.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos-inicio.css">
+       <link rel="stylesheet" href="css/style-home.css"> 
+       
+</head>
+
+
+    <form class="formulario" method="post" onsubmit="return validar()">
+        <h1>Login</h1>
+        <div class="contenedor">
+            <div class="input-contenedor">
+                <i class="fas fa-envelope icon"></i>
+                <input type="text" id="username" placeholder="Correo Electronico">
+            </div>
+
+            <div class="input-contenedor">
+                <i class="fas fa-key lock icon"></i>
+                <input type="password" id="password" placeholder="Contraseña">
+            </div>
+
+            <input type="submit" id="button" value="Login" class="button">
+            <p>Al registrarte, aceptas Terminos y Condiciones.</p>
+            <p><a class="link" href="6Recuperar_contrasena.html"> ¿Olvidaste tu Contraseña? </a></p>
+            <p>¿No tienes una cuenta? <a class="link" href="3Registro.html">Registrate </a></p>
+        </div>
+    </form>
+
+
+    <script src="Funciones/Fuction.js"></script>
+</body>
+</html>
